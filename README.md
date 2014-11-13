@@ -1,4 +1,4 @@
-# Adventure Bot!
+# Adventure Bot! w/ Improved Docs
 
 Text adventures in Slack uses:
 
