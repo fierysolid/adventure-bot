@@ -10,10 +10,10 @@ Text adventures in Slack
 
 - Create an incoming message hook for slack
 
-..1. Create a channel for your adventures
-
-..2. Customize Name of your bot
-
+  1. Create a channel for your adventures
+![alt text][create-channel]
+  2. Customize Name of your bot
+![alt text][create-channel]
 - Set your domain and token
 - Create an outgoing message hook and point it to http://your-server:/message
 
@@ -23,3 +23,7 @@ Text adventures in Slack
 bundle
 bundle exec ./start.sh
 ```
+
+[create-channel]: https://raw.githubusercontent.com/Jupitar/adventure-bot/master/docs/create-channel.png "create channel"
+
+[customize-name]: https://raw.githubusercontent.com/Jupitar/adventure-bot/master/docs/customize-name.png "customize name"
