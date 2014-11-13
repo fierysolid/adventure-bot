@@ -9,8 +9,13 @@ Text adventures in Slack
 ## Setup
 
 - Create an incoming message hook for slack
+
+..1. Create a channel for your adventures
+
+..2. Customize Name of your bot
+
 - Set your domain and token
-- Create an outgoing message hook and point it to http://your-server/message
+- Create an outgoing message hook and point it to http://your-server:/message
 
 ## Running
 
