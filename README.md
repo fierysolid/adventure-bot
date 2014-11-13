@@ -51,7 +51,7 @@ gem install bundler
 bundle
 bundle exec ./start.sh
 ```
-###### you may run `bundle exec ./start.sh` with a daemon or as a detached screen to keep it running
+###### you may run `bundle exec ./start.sh` with a daemon or as a detached screen/tmux to keep it running
 
 ### Start typing inside your new channel!
 
