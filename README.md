@@ -4,7 +4,9 @@ Text adventures in Slack uses:
 
 - [Slack API](http://api.slack.com)
 - Redis
+- Bundler
 - [Sebastian Wittenkamp's Ruby text adventure](https://github.com/bitops/text-adventure)
+- [wstrinz adventure-bot](https://github.com/wstrinz/adventure-bot)
 
 ## Setup
 
@@ -34,9 +36,9 @@ Text adventures in Slack uses:
 #### Set your domain and token
 
 1. Clone this repo onto your server
-2. Inside **sender.rb** change the `url` variable to your domain and Slack Token
+2. Inside **sender.rb** change the `url` variable to your **domain** and **Slack Token**
 ```ruby
-url = 'https://yourdomain.slack.com/services/hooks/incoming-webhook?token=<yourtoken>'
+url = 'https://<yourdomain>.slack.com/services/hooks/incoming-webhook?token=<yourtoken>'
 ```
 3. Save file
 
@@ -49,9 +51,9 @@ gem install bundler
 bundle
 bundle exec ./start.sh
 ```
-###### you may want to run `bundle exec ./start.sh` with a daemon or as a detached screen
+###### you may run `bundle exec ./start.sh` with a daemon or as a detached screen to keep it running
 
-## Start typing inside your new channel
+### Start typing inside your new channel!
 
 [create-channel]: https://raw.githubusercontent.com/Jupitar/adventure-bot/master/docs/create-channel.png "create channel"
 
