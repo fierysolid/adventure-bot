@@ -12,13 +12,11 @@ end
 def to_slack(json_message)
   puts "said #{json_message["response"]} to slack"
   args = {
-    #"channel" => "#metal-graveyard",
     "username" => "adventure-bot",
     "text" => json_message["response"]
   }
 
-  raise "No SLACK_TOKEN environment variable specified!" unless ENV["SLACK_TOKEN"]
-  url = 'https://bendyworks.slack.com/services/hooks/incoming-webhook?token=' + ENV["SLACK_TOKEN"]
+  url = 'https://yourdomain.slack.com/services/hooks/incoming-webhook?token=yourtoken'
   RestClient.post url, args.to_json, content_type: :json
 end
 

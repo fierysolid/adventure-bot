@@ -8,7 +8,8 @@ Text adventures in Slack
 
 ## Setup
 
-- Create an incoming message hook for slack, then set the `SLACK_TOKEN` environment variable
+- Create an incoming message hook for slack
+- Set your domain and token
 - Create an outgoing message hook and point it to http://your-server/message
 
 ## Running

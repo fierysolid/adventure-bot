@@ -7,7 +7,7 @@ require 'open-uri'
 def setup_game(file='games/LostPig.z8')
   @game = Z::Machine.new(file)
   @game.run
-  @bot_name = ["@adventure","@a"]
+  @bot_name = ["slackbot"]
   @game.output.join
 end
 
